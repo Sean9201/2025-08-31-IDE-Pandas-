@@ -1,0 +1,8 @@
+import pandas as pd
+
+df = pd.read_csv('running.csv')  //엑셀 파일 읽기
+df //데이터 모두 읽기
+df.head() //데이터 앞 부분만 읽기 (첫 5줄)
+df.tail() //데이터의 꼬리만 읽기 (마지막 5줄)
+df.shape // 데이터의 전체 크기(몇행,몇열)인지를 알고 싶을때
+print(df.to_string()) //절대로 생략 없이 무조건 다 보고 싶을때 (데이터가 적을 때만 사용하기)
