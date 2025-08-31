@@ -1,0 +1,11 @@
+윈도우에서 Anaconda Prompt 를 검색해서 명령창을 실행한다.
+cd JupitorWorkspace 입력하여 이동한다.
+jupyter lab을 입력해서 IDE를 올바른 위치에서 킨다.
+
+
+매번 이렇게 입력하기 귀찮으면
+# 윈도우의 경로(\)는 파이썬에서 특별한 의미를 가질 수 있으므로, / 로 바꿔주거나 \\ 로 두 번 쓰는 것이 안전합니다.
+df = pd.read_csv('C:/Users/dudtj/JupitorWorkspace/running_log.csv') 
+df.head()
+
+IDE에게 절대경로(전체 주소)를 알려주는 것도 하나의 방법이 될 수 있다.
