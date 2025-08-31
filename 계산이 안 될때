@@ -1,0 +1,7 @@
+새로운 참조 데이터를 만들기 위해서 (특성 생성 (Feature Engineering))
+  df['pace'] = df[time_mintues'] / df['distance_km'] 를 했는데 TypeError가 뜬다면
+                  df.info()를 통해서 어떤 참조형인지 알아본다음에 object 형태가 있으면 excel에 들어가서 그것을 다시 float나 int 형태로 바꿔준다.
+
+그 이후 데이터 필터링을 하기 위해 다음과 같으 코드를 배워서 적었다.
+  good_condition_runs = df[df['feeling_score (1~5)'] >= 4 ] //필터링을 여기서 해주고
+  good_condition_runs   // 이 코드로 출력을 한다.
